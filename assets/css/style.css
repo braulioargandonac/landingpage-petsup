@@ -1,10 +1,3 @@
-/**
-* Template Name: Bootslander - v4.7.1
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -223,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #7b5adb;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -284,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #7b5adb;
+  background: #9d85e1;
   transition: 0.3s;
   z-index: 999;
 }
@@ -312,10 +305,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #5b109a;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #9d85e1;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -576,6 +569,10 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #5b109a;
+}
+
+.gorditos{
+  text-align: start;
 }
 
 /*--------------------------------------------------------------
@@ -929,6 +926,7 @@ section {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  border-radius: 15px 15px 0px 0px;
 }
 .team .member .pic {
   border-radius: 4px;
@@ -936,9 +934,11 @@ section {
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
+  border-radius: 15px 15px 0px 0px;
 }
 .team .member:hover img {
   transform: scale(1.1);
+  border-radius: 15px 15px 0px 0px;
 }
 .team .member .member-info {
   position: absolute;
@@ -947,7 +947,7 @@ section {
   right: 0px;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 0;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 15px 15px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 .team .member h4 {
@@ -1185,7 +1185,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #5b109a;
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
@@ -1194,14 +1194,14 @@ section {
   background: #9d85e1;
   color: #fff;
 }
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   background: #fff;
 }
-.contact .php-email-form .form-group {
+.contact .email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
+.contact .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1209,10 +1209,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1220,13 +1220,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contact .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contact .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1238,18 +1238,20 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .email-form input, .contact .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input {
+.contact .email-form input {
+  border-radius: 5px;
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .email-form textarea {
+  border-radius: 5px;
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .email-form button[type=submit] {
   background: #9d85e1;
   border: 0;
   padding: 10px 30px;
@@ -1257,7 +1259,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .email-form button[type=submit]:hover {
   background: #34e5a6;
 }
 @-webkit-keyframes animate-loading {
@@ -1446,4 +1448,8 @@ section {
 .subscribe{
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 3%;
+}
+
+::-webkit-scrollbar{
+  width:0px;
 }

@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Diseño basado en la plantilla:
 
 Template Name: Bootslander
 Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
